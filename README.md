@@ -20,7 +20,7 @@ https://www.informaticar.net/security-hardening-ubuntu-20-04/
 ## /etc/pam.d/sshd
 * auth required pam_google_authenticator.so
 * auth required pam_permit.so
-* Uncomment #@include common-auth
+* comment #@include common-auth
 
 ## Run
 * google-authenticator
