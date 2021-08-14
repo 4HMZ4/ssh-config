@@ -32,7 +32,7 @@ Port 2222
 
 # Authentication:
 
-AuthenticationMethods publickey,password publickey,keyboard-interactive
+AuthenticationMethods publickey,keyboard-interactive
 
 #LoginGraceTime 2m
 PermitRootLogin no
@@ -88,7 +88,7 @@ AllowUsers ahmza
 # If you just want the PAM account and session checks to run without
 # PAM authentication, then enable this but set PasswordAuthentication
 # and ChallengeResponseAuthentication to 'no'.
-UsePAM no
+UsePAM yes
 
 #AllowAgentForwarding yes
 #AllowTcpForwarding yes

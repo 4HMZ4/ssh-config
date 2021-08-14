@@ -1,0 +1,11 @@
+[DEFAULT]
+ bantime = 8h
+ ignoreip = 127.0.0.1/8 192.168.10.20 192.168.10.30
+ ignoreself = true
+
+ [sshd]
+ enabled = true
+ port = 2222
+ filter = sshd
+ logpath = /var/log/auth.log
+ maxretry = 3
