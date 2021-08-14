@@ -32,6 +32,8 @@ Port 2222
 
 # Authentication:
 
+AuthenticationMethods publickey,password publickey,keyboard-interactive
+
 #LoginGraceTime 2m
 PermitRootLogin no
 #StrictModes yes
