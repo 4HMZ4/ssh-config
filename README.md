@@ -6,6 +6,7 @@ https://www.informaticar.net/security-hardening-ubuntu-20-04/
 
 ## install:
 * sudo apt install libpam-google-authenticator
+* sudo apt-get install fail2ban
 
 ## sshd-config
 * Protocol 2
@@ -15,6 +16,7 @@ https://www.informaticar.net/security-hardening-ubuntu-20-04/
 * ClientAliveInterval 180
 * AllowUsers ahmza
 * ChallengeResponseAuthentication yes
+* UsePam yes
 * AuthenticationMethods publickey,password publickey,keyboard-interactive
 
 ## /etc/pam.d/sshd
