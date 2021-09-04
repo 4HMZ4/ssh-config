@@ -24,7 +24,6 @@ https://www.informaticar.net/security-hardening-ubuntu-20-04/
 * bantime = 8h
 * ignoreip = 127.0.0.1/8 192.168.10.20 192.168.10.30
 * ignoreself = true
-
 * [sshd]
 * enabled = true
 * port = 2222
